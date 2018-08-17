@@ -82,6 +82,6 @@ test:
 #
 production:
   <<: *default
-  database: devise-test_production
-  username: devise-test
+  database:  app-dev-p
+  username:  user
   password: <%= ENV['DEVISE-TEST_DATABASE_PASSWORD'] %>
