@@ -17,7 +17,8 @@
 default: &default
   adapter: postgresql
   host: localhost
-  username: user
+  username: ashu
+  password: dgtwa34892
   database: app-dev
   # For details on connection pooling, see Rails configuration guide
   # http://guides.rubyonrails.org/configuring.html#database-pooling
