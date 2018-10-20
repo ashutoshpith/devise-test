@@ -59,6 +59,12 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 gem 'devise', '~> 4.4', '>= 4.4.3'
 
 
+group :development do
+  gem "better_errors"
+  gem "binding_of_caller"
+end
 
-
+gem 'omniauth'
 gem 'omniauth-google-oauth2'
+gem 'omniauth-facebook'
+gem 'figaro'
